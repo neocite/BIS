@@ -200,6 +200,9 @@
 		51D342C717A85F9D0026EF25 /* FinalScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D342C617A85F9D0026EF25 /* FinalScreen.m */; };
 		51D342CA17A864410026EF25 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D342C917A864410026EF25 /* GameOver.m */; };
 		51D342CC17A868400026EF25 /* tension.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D342CB17A868400026EF25 /* tension.wav */; };
+		51D342CE17A86F4B0026EF25 /* maniacal-laugh-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D342CD17A86F4B0026EF25 /* maniacal-laugh-3.wav */; };
+		51D342D017A870DC0026EF25 /* massive-laughter-10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D342CF17A870DC0026EF25 /* massive-laughter-10.wav */; };
+		51D342D217A871D90026EF25 /* smallcrowd.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D342D117A871D90026EF25 /* smallcrowd.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -555,6 +558,9 @@
 		51D342C817A864410026EF25 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
 		51D342C917A864410026EF25 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
 		51D342CB17A868400026EF25 /* tension.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tension.wav; path = ../../../../../../../../../Music/soundsForGames/tension.wav; sourceTree = "<group>"; };
+		51D342CD17A86F4B0026EF25 /* maniacal-laugh-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "maniacal-laugh-3.wav"; path = "../../../../../../../../../Music/soundsForGames/maniacal-laugh-3.wav"; sourceTree = "<group>"; };
+		51D342CF17A870DC0026EF25 /* massive-laughter-10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "massive-laughter-10.wav"; path = "../../../../../../../../../Music/soundsForGames/massive-laughter-10.wav"; sourceTree = "<group>"; };
+		51D342D117A871D90026EF25 /* smallcrowd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smallcrowd.wav; path = ../../../../../../../../../Music/soundsForGames/smallcrowd.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1085,6 +1091,9 @@
 		51468F9917A7781200D0EC86 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				51D342D117A871D90026EF25 /* smallcrowd.wav */,
+				51D342CF17A870DC0026EF25 /* massive-laughter-10.wav */,
+				51D342CD17A86F4B0026EF25 /* maniacal-laugh-3.wav */,
 				51D342CB17A868400026EF25 /* tension.wav */,
 				51D342C317A85D230026EF25 /* spy-game-action.mp3 */,
 				51D342C117A85A690026EF25 /* loud-scream.aiff */,
@@ -1225,6 +1234,9 @@
 				51D342C217A85A690026EF25 /* loud-scream.aiff in Resources */,
 				51D342C417A85D230026EF25 /* spy-game-action.mp3 in Resources */,
 				51D342CC17A868400026EF25 /* tension.wav in Resources */,
+				51D342CE17A86F4B0026EF25 /* maniacal-laugh-3.wav in Resources */,
+				51D342D017A870DC0026EF25 /* massive-laughter-10.wav in Resources */,
+				51D342D217A871D90026EF25 /* smallcrowd.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

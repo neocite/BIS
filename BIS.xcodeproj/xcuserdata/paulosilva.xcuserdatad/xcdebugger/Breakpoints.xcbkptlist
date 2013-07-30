@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GameScene.m"
-         timestampString = "396912234.990377"
+         timestampString = "396913340.703172"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "219"
-         endingLineNumber = "219"
+         startingLineNumber = "222"
+         endingLineNumber = "222"
          landmarkName = "@implementation GameScene"
          landmarkType = "3">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GameScene.m"
-         timestampString = "396912234.990377"
+         timestampString = "396913340.703172"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "220"
-         endingLineNumber = "220"
+         startingLineNumber = "223"
+         endingLineNumber = "223"
          landmarkName = "-playerHit:withMeteor:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GameScene.m"
-         timestampString = "396912234.990377"
+         timestampString = "396913340.703172"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "223"
-         endingLineNumber = "223"
+         startingLineNumber = "226"
+         endingLineNumber = "226"
          landmarkName = "-playerHit:withMeteor:"
          landmarkType = "5">
       </FileBreakpoint>
