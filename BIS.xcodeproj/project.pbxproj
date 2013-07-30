@@ -587,6 +587,11 @@
 		51468DAB17A773BF00D0EC86 = {
 			isa = PBXGroup;
 			children = (
+				51468F5817A773C200D0EC86 /* Supporting Files */,
+				51468DE417A773BF00D0EC86 /* libs */,
+				51468DCC17A773BF00D0EC86 /* Resources */,
+				51468F6A17A773CD00D0EC86 /* Scenes */,
+				51468FCE17A7810C00D0EC86 /* Sprites */,
 				51468DCB17A773BF00D0EC86 /* BIS */,
 				51468DB617A773BF00D0EC86 /* Frameworks */,
 				51468DB517A773BF00D0EC86 /* Products */,
@@ -621,17 +626,12 @@
 		51468DCB17A773BF00D0EC86 /* BIS */ = {
 			isa = PBXGroup;
 			children = (
-				51468FCE17A7810C00D0EC86 /* Sprites */,
-				51468F6A17A773CD00D0EC86 /* Scenes */,
 				51468F5C17A773C200D0EC86 /* AppDelegate.h */,
 				51468F5D17A773C200D0EC86 /* AppDelegate.m */,
 				51468F5F17A773C200D0EC86 /* HelloWorldLayer.h */,
 				51468F6017A773C200D0EC86 /* HelloWorldLayer.m */,
 				51468F6217A773C200D0EC86 /* IntroLayer.h */,
 				51468F6317A773C200D0EC86 /* IntroLayer.m */,
-				51468DCC17A773BF00D0EC86 /* Resources */,
-				51468DE417A773BF00D0EC86 /* libs */,
-				51468F5817A773C200D0EC86 /* Supporting Files */,
 			);
 			path = BIS;
 			sourceTree = "<group>";
@@ -655,6 +655,7 @@
 				51468DE217A773BF00D0EC86 /* iTunesArtwork */,
 			);
 			name = Resources;
+			path = BIS;
 			sourceTree = "<group>";
 		};
 		51468DE417A773BF00D0EC86 /* libs */ = {
@@ -668,6 +669,7 @@
 				51468F2617A773C100D0EC86 /* kazmath */,
 			);
 			name = libs;
+			path = BIS;
 			sourceTree = "<group>";
 		};
 		51468DE517A773BF00D0EC86 /* cocos2d */ = {
@@ -1021,6 +1023,7 @@
 				51468F7217A7760100D0EC86 /* DeviceSettings.m */,
 			);
 			name = "Supporting Files";
+			path = BIS;
 			sourceTree = "<group>";
 		};
 		51468F6A17A773CD00D0EC86 /* Scenes */ = {
@@ -1040,7 +1043,6 @@
 				51D342C917A864410026EF25 /* GameOver.m */,
 			);
 			name = Scenes;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		51468F7417A7781200D0EC86 /* Images */ = {
@@ -1122,6 +1124,7 @@
 				51D342B417A828A20026EF25 /* Shoot.m */,
 			);
 			name = Sprites;
+			path = BIS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
