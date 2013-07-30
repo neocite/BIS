@@ -32,8 +32,7 @@
         background.position =
         ccp(SCREEN_WIDTH() / 2.0f, SCREEN_HEIGHT() / 2.0f);
         [self addChild:background];
-        // Som
-        [[SimpleAudioEngine sharedEngine] playEffect:@"tension.wav"];
+        
         // Imagem
         CCSprite *title = [CCSprite spriteWithFile:kGAMEOVER];
         title.position =
@@ -51,6 +50,8 @@
         // Cria o menu que terá o botão
         CCMenu *menu = [CCMenu menuWithItems:beginButton, nil];
         [self addChild:menu];
+        [[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
+      
         
     }
     return self;
@@ -63,6 +64,8 @@
     // Transfere o Jogador para a TitleScreen
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0
                                                                                  scene:[TitleScreen scene] ]];
+    // Som
+    [[SimpleAudioEngine sharedEngine] playEffect:@"smallcrowd.wav"];
 }
 
 @end

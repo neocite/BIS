@@ -11,14 +11,16 @@
 
 @implementation CCMenuItemGameButton
 
-- (void)selected
+
+-(void)activate
 {
     [super activate];
 }
 
--(void)activate
+- (void)unselected
 {
-
+    [super unselected];
 }
+
 
 @end

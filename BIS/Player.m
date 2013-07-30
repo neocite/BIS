@@ -40,7 +40,7 @@
     CCSpawn *s1 = [CCSpawn actionWithArray:[NSArray arrayWithObjects:a1, a2, nil]];
     [self runAction:s1];
     [[SimpleAudioEngine sharedEngine] playEffect:@"loud-scream.aiff"];
-    [[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
+ 
 }
 
 - (void)moveLeft

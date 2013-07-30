@@ -88,6 +88,7 @@
                                          selectedSprite:[CCSprite spriteWithFile:kLEFTCONTROL]
                                          target:self
                                          selector:@selector(moveLeft:)];
+    
     CCMenuItemGameButton *rightControl = [CCMenuItemGameButton
                                           itemWithNormalSprite:[CCSprite spriteWithFile:kRIGHTCONTROL]
                                           selectedSprite:[CCSprite spriteWithFile:kRIGHTCONTROL]
@@ -103,9 +104,11 @@
     // Define as posições dos botões
     leftControl.position = ccp(-110.0f,
                                (SCREEN_HEIGHT() / -2.0f) + 50.0f);
-    rightControl.position = ccp(-50.0f,
+    
+    rightControl.position = ccp((SCREEN_WIDTH() / 2.0f) - 50.0f,
                                 (SCREEN_HEIGHT() / -2.0f) + 50.0f);
-    shootButton.position = ccp((SCREEN_WIDTH() / 2.0f) - 50.0f,
+    
+    shootButton.position = ccp(0.0f,
                                (SCREEN_HEIGHT() / -2.0f) + 50.0f);
     // Cria o menu que terá os botões
     CCMenu *menu = [CCMenu menuWithItems:leftControl,
