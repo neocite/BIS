@@ -20,6 +20,9 @@
     
 @property (nonatomic, assign) id<MeteorsEngineDelegate>delegate;
 + (MeteorsEngine *)meteorEngine;
+
+-(void) increaseDifficulty;
+
 @end
 
 

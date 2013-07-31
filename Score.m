@@ -24,8 +24,8 @@
         // Posiciona o Placar recém criado
         self.position = ccp(SCREEN_WIDTH() - 50.0f, SCREEN_HEIGHT() - 50.0f);
         self.text = [CCLabelBMFont labelWithString:
-                    [NSString stringWithFormat:@"%d", self.score]
-                    fntFile:@"UniSansSemiBold_Numbers_240.fnt"];
+                    [NSString stringWithFormat:@"%d%@", self.score,@"/100"]
+                    fntFile:@"UniSansBold_AlphaNum_50.fnt"];
         self.text.scale = (float)(240.0f / 240.0f);
         [self addChild:self.text];
     }
@@ -36,7 +36,7 @@
 {
     // Aumenta a pontuação e atualiza o Placar
     self.score++;
-    self.text.string = [NSString stringWithFormat:@"%d", self.score];
+    self.text.string = [NSString stringWithFormat:@"%d%@", self.score,@"/100"];
 }
 
 

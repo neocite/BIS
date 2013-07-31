@@ -18,6 +18,8 @@
     return [[[MeteorsEngine alloc] init] autorelease];
 }
 
+float _time = 10.0f;
+
 - (id)init {
     self = [super init];
     if (self) {
@@ -36,6 +38,13 @@
             [self.delegate meteorsEngineDidCreateMeteor:[Meteor meteorWithImage:kMETEOR]];
         }
     }
+}
+
+-(void)increaseDifficulty
+{
+    _time+=10.0f;
+    [self unschedule:@selector(meteorsEngine:)];
+    [self schedule:@selector(meteorsEngine:) interval:(1.0f/_time)];
 }
 
 @end

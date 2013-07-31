@@ -247,7 +247,13 @@
     }
       [self.score increase];
     
-    if (self.score.score >= 5) {
+    
+    if((self.score.score % 10)==0 )
+    {
+        [self.meteorsEngine increaseDifficulty];
+    }
+    
+    if (self.score.score >= 100) {
         [self startFinalScreen];
     }
 }
